@@ -3,6 +3,7 @@ import 'package:herbs_natural_cures_app/core/constants/colors.dart';
 import 'package:herbs_natural_cures_app/ui/custom_widgets/custom_text_field.dart';
 import 'package:herbs_natural_cures_app/ui/custom_widgets/herb_icon.dart';
 import 'package:herbs_natural_cures_app/ui/screens/forgot_password.dart';
+import 'package:herbs_natural_cures_app/ui/screens/signin_screen.dart';
 class SignUpScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -54,7 +55,14 @@ class SignUpScreen extends StatelessWidget {
       SizedBox(height: 10),
 
       ////
-      ////Password
+      ////Enter Password
+      ////
+      CustomTextField('Enter Password'),
+      SizedBox(height: 10),
+
+
+      ////
+      ////Enter Password
       ////
 
       CustomTextField('Confirm Password'),
@@ -78,7 +86,7 @@ class SignUpScreen extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => ForgotPassword()));
+                    builder: (context) => SignIn()));
           },
           child: Text('REGISTER'),
         ),

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>162948962726-9d9unm750dfmkjo9fe5lv9scuh0t3onl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.162948962726-9d9unm750dfmkjo9fe5lv9scuh0t3onl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDZ11MyYjiq22iQzRlh1Cy-VS1Co88YyRA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>162948962726</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.herbsNaturalCuresApp</string>
+	<key>PROJECT_ID</key>
+	<string>herb-natural-cures-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>herb-natural-cures-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:162948962726:ios:2f40086377602fd0ae9767</string>
+</dict>
+</plist>

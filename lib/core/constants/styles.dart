@@ -31,3 +31,12 @@ const primary2TextStyle=TextStyle(
   fontWeight: FontWeight.w700,
 
 );
+
+////sign in page
+const primary3TextStyle=TextStyle(
+  fontSize: 32.0,
+  fontWeight: FontWeight.bold,
+  backgroundColor: null,
+  fontStyle: FontStyle.normal,
+
+);

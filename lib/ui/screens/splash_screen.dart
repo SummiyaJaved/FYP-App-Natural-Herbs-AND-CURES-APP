@@ -13,8 +13,6 @@ import 'package:herbs_natural_cures_app/ui/custom_widgets/vegtable_image.dart';
 import 'package:herbs_natural_cures_app/ui/screens/login_screen.dart';
 
 
-
-
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key key}) : super(key: key);
   @override
@@ -91,7 +89,7 @@ Row(
 
   children: [
 
-    VegatableImageWidget(),
+    VegetableImageWidget(),
     //SizedBox(height: 40),
     HerbsImageWidget(),
    // FruitsImageWidget(),

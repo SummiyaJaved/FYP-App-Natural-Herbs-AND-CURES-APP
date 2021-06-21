@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class VegatableImageWidget extends StatelessWidget {
+class VegetableImageWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image(

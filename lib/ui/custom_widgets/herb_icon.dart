@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
           image: AssetImage('assets/images/logo.png'),
 
 
-          height: 150,
+          height: 120,
           width: 200,
         );
       }

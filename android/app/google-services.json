@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "162948962726",
+    "project_id": "herb-natural-cures-app",
+    "storage_bucket": "herb-natural-cures-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162948962726:android:ad79ffd200a55779ae9767",
+        "android_client_info": {
+          "package_name": "com.example.herbs_natural_cures_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162948962726-pf928fl2hq9boj8n58io337flk6lisn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.herbs_natural_cures_app",
+            "certificate_hash": "0d87975e856f9a42ab9987389b92b4c0f48b2f8b"
+          }
+        },
+        {
+          "client_id": "162948962726-hvsmcjgfjb35tbvro1ft4lbnfjb5rt38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKo5FMpXQalhP-gQuForweffcaeeOsluA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162948962726-hvsmcjgfjb35tbvro1ft4lbnfjb5rt38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "162948962726-9d9unm750dfmkjo9fe5lv9scuh0t3onl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.herbsNaturalCuresApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

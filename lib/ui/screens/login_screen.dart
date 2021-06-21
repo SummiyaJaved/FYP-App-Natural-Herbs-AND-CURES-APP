@@ -5,6 +5,8 @@ import 'package:herbs_natural_cures_app/ui/custom_widgets/custom_text_field.dart
 import 'package:herbs_natural_cures_app/ui/custom_widgets/herb_icon.dart';
 import 'package:herbs_natural_cures_app/ui/screens/signup_screen.dart';
 
+import 'homeScreen.dart';
+
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key key}) : super(key: key);
@@ -64,6 +66,7 @@ class LoginScreen extends StatelessWidget {
               ////
 
               CustomTextField("Password"),
+              obsscureText: true,
 
               SizedBox(height: 40),
 
@@ -76,11 +79,34 @@ class LoginScreen extends StatelessWidget {
                   children: [
                     ////Forgot Password text
                     Text('Forgot Password ?'),
+                    obsscureText: true,
 
                     SizedBox(height: 1),
 
                     ////Sign Up Now
-                    Text('Sign Up Now !',style:primary2TextStyle,)
+                   // Text('Sign Up Now !',style:primary2TextStyle,),
+                    Padding(
+                      padding: const EdgeInsets.only(right: 40,left: 15),
+                      child: ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                            shape: StadiumBorder(),
+                            primary: primaryWhiteColor,
+
+                            padding: EdgeInsets.symmetric(vertical: 10)),
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => SignUpScreen()));
+                        },
+                        child: Text('Sign Up Now',style:TextStyle(color: primaryGreenColor,fontSize: 12),),
+
+
+
+
+                      ),
+                    ),
+
                   ],
                 ),
           ),
@@ -114,7 +140,7 @@ class LoginScreen extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => SignUpScreen()));
+                            builder: (context) => HomeScreen()));
                   },
                   child: Text('Login In'),
                 ),
